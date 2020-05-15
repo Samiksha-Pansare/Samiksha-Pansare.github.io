@@ -58,15 +58,7 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
-.navbar-header button.navbar-toggle-collapsed, .navbar-header .icon-bar {
-  border: 1px black;
-  height: 30px;
-}
-.navbar-header button.navbar-toggle-collapsed  {
-  clear: both;
-  margin-top: 30px;
 
-}
 /* END HEADER */
 
 /********** Large devices only **********/
@@ -120,7 +112,16 @@ body {
   border: 1px solid #61122f;
 }
 
+.navbar-header button.navbar-toggle-collapsed, .navbar-header .icon-bar {
+  border: 1px black;
+  height: 30px;
+  width :400px;
+}
+.navbar-header button.navbar-toggle-collapsed  {
+  clear: both;
+  margin-top: 30px;
 
+}
 
   /* End Header */
   /* HOME PAGE */
