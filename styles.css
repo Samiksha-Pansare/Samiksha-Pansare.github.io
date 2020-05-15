@@ -1,0 +1,183 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+  height: 100px;
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  background-color: blue;
+
+}
+.hidden-xs {
+  font-color: black;
+  font-weight: bolder;
+}
+
+.navbar-header button.navbar-toggle-collapsed, .navbar-header .iconbar  {
+  margin-top: -30px;
+  border: 3px black;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: blue;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle-collapsed, .navbar-header .icon-bar {
+  border: 1px black;
+  height: 30px;
+}
+.navbar-header button.navbar-toggle-collapsed  {
+  clear: both;
+  margin-top: 30px;
+
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+}
+/* END HEADER */
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  
+ #navbar-toggle-collapsed  {
+  clear: both;
+  margin-top: -30px;
+  width: 100px;
+  height: 100px;
+}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 10px;
+    background-color: blue;
+    height: 5px;
+  }
+  .navbar-header button.navbar-toggle-collapsed, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+
+
+  /* End Header */
+  /* HOME PAGE */
+
+}
+* {
+  box-sizing: border-box;
+  
+}
+h1 {
+  margin-bottom: 15px;
+  font color: black;
+}
+h2 {
+  float: right;
+  width: 200px;
+  font color: black;
+}
+}
+
+."col-lg-3 col-md-6" {
+
+  padding: 0;
+  font: color: black;
+}
+#red{
+  background-color:red;
+  margin: 5px;
+}
+#blue{
+  background-color: blue;
+  margin: 5px;
+}
+#green{
+  background-color: green;
+  margin: 5px;
+}
+p {
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica color black;
+  padding: 0;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: #222;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+}
+
+}
