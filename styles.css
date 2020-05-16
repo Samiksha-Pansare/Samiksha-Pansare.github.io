@@ -61,7 +61,7 @@ body {
   font-size: 1.8em;
 }
   .container {
-    display: block;
+    display: none;
   }
 }
 
@@ -84,7 +84,7 @@ body {
   font-size: 1.8em;
 }
    .container {
-    display: block;
+    display: none;
   }
   /* End Header */
 }
@@ -160,6 +160,9 @@ button, select {
   border: 3px black;
   height: 50;
 }
+   .container {
+    display: block;
+  }
 }
   /* End Header */
   /* HOME PAGE */
