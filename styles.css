@@ -48,12 +48,16 @@ body {
   #collapsable-nav  {
     display: none;
   }
+  
+#nav-list {
+    display: none;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #collapsable-nav {
+  #collapsable-nav  #nav-list {
     display: none;
   }
   /* End Header */
