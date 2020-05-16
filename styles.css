@@ -170,7 +170,8 @@ button, select {
 h1 {
   margin-bottom: 15px;
   font color: black;
-  align: center;
+  align-content: center;
+   margin: auto auto;
 }
 h2 {
   float: right;
