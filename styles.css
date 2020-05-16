@@ -45,22 +45,7 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  
-
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: black;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: blue;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-  .container {
+  #collapsable-nav  {
     display: none;
   }
 }
@@ -68,22 +53,7 @@ body {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  
-
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: black;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: blue;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-   .container {
+  #collapsable-nav {
     display: none;
   }
   /* End Header */
@@ -163,6 +133,19 @@ button, select {
    .container {
     display: block;
   }
+  #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: blue;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
 }
   /* End Header */
   /* HOME PAGE */
