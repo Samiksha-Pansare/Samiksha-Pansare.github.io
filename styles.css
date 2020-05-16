@@ -92,6 +92,7 @@ body {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+  transition : all 0.15s;
 }
 button, input, select, textarea {
     font-family: inherit;
