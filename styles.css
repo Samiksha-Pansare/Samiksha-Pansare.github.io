@@ -51,14 +51,14 @@ body {
 #nav-list a {
   color: black;
   text-align: center;
-  float: left ;
+  float: right ;
 }
 #nav-list a:hover {
   background: blue;
 }
 #nav-list a span {
   font-size: 1.8em;
-  float: left ;
+  float: right ;
 }
   
 }
