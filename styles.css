@@ -60,6 +60,9 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+  .container {
+    display: block;
+  }
 }
 
 /********** Medium devices only **********/
@@ -80,6 +83,9 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+   .container {
+    display: block;
+  }
   /* End Header */
 }
 /* END HEADER */
